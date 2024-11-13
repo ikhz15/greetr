@@ -4,7 +4,7 @@ We can now import our package from the GitLab server into a new Laravel project 
 Require our package in composer.json
 Edit the new project’s composer.jsonfile to require our package and also indicate our repository in GitLab for Composer to know where to fetch packages aside from the default packagist repositories.
 
-"require": {
+    "require": {
 
     "php": "^7.1.3",
 
