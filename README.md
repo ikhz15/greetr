@@ -5,7 +5,6 @@ Require our package in composer.json
 Edit the new project’s composer.jsonfile to require our package and also indicate our repository in GitLab for Composer to know where to fetch packages aside from the default packagist repositories.
 
 "require": {
-
     "php": "^7.1.3",
 
     "fideloper/proxy": "^4.0",
@@ -17,9 +16,7 @@ Edit the new project’s composer.jsonfile to require our package and also indic
     "simplexi/greetr": "^1.0.0"
 
 },
-
 "repositories": [
-
     {
     
         "type": "vcs",
