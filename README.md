@@ -14,9 +14,7 @@ Edit the new project’s composer.jsonfile to require our package and also indic
     "laravel/tinker": "^1.0",
     
     "simplexi/greetr": "^1.0.0"
-
-},
-"repositories": [
+},"repositories": [
     {
     
         "type": "vcs",
