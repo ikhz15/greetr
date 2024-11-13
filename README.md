@@ -6,24 +6,15 @@ Edit the new project’s composer.jsonfile to require our package and also indic
 
 "require": {
     "php": "^7.1.3",
-
     "fideloper/proxy": "^4.0",
-    
     "laravel/framework": "5.7.*",
-    
     "laravel/tinker": "^1.0",
-    
-    "simplexi/greetr": "^1.0.0"
-},"repositories": [
-    {
-    
+    "simplexi/greetr": "^1.0.0"},
+    "repositories":
+    [{
         "type": "vcs",
-    
         "url": "https://gitlab.com/francis01/greetr"
-    
-    }
-
-]
+    }]
 
 The repository’s property lists all non-packagist repositories. If you are going to install several packages from the same GitLab domain, instead of specifying each package’s repository you may use the type “composer” and only indicate the domain in the URL. However, there’s an additional setup that your GitLab admin should do in this case. For now, let’s stick to a single repository with type “vcs”.
 
