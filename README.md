@@ -1,8 +1,8 @@
 Importing Laravel Package
-We can now import our package from the GitLab server into a new Laravel project using Composer. Create another Laravel project on your local machine.
+Import this package into a new Laravel project using Composer. Create another Laravel project on your local machine.
 
 Require our package in composer.json
-Edit the new project’s composer.jsonfile to require our package and also indicate our repository in GitLab for Composer to know where to fetch packages aside from the default packagist repositories.
+Edit the new project’s composer.json file to require our package and also indicate our repository in Github for Composer to know where to fetch packages aside from the default packagist repositories.
 
     "require": {
 
