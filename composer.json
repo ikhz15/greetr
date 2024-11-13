@@ -1,0 +1,13 @@
+{
+    "name": "simplexi/greetr",
+    "description": "Greetr - A simple Laravel Package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Simplexi\\Greetr\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
