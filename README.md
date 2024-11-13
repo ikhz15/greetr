@@ -6,15 +6,16 @@ Edit the new project’s composer.jsonfile to require our package and also indic
 
     "require": {
 
-    "php": "^7.1.3",
+        "php": "^7.1.3",
 
-    "fideloper/proxy": "^4.0",
+        "fideloper/proxy": "^4.0",
 
-    "laravel/framework": "5.7.*",
+        "laravel/framework": "5.7.*",
     
-    "laravel/tinker": "^1.0",
+        "laravel/tinker": "^1.0",
     
-    "simplexi/greetr": "^1.0.0"},
+        "simplexi/greetr": "^1.0.0"
+    },
     
     "repositories":
     
